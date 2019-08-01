@@ -24,6 +24,7 @@ public class Main {
 			//trie.insert("buck");
 			//trie.insert("dog");
 			//trie.insert("Apostate");
+			//With all the possible word in words, you will see bunny and apostleship was found
 			boolean res = trie.search("bunny");
 			System.out.println(res);
 			//Try to search apostolate
